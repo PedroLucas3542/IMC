@@ -23,13 +23,17 @@
             max-width: 400px;
             margin: 0 auto;
             padding: 20px;
+            padding-right: 410px;
         }
 
         .tela {
+            width: 500px;
+            height: 700px;
             background: #f8f4e5;
             padding: 50px 100px;
             border: 2px solid black;
             box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+            font-size: 30px;
         }
 
         h1 {
@@ -55,6 +59,7 @@
             padding-left: 5px;
             outline: none;
             color: black;
+            font-size: 30px;
         }
 
         input:focus {
@@ -120,8 +125,7 @@
             <p class="category">Categoria: <span id="categoryValue"></span></p>
           </div>
         </div>
-    </div>
-
+    </div>  
     <script>
         function calcularIMC() {
             var weight = parseFloat(document.getElementById('weight').value);
